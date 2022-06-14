@@ -1,0 +1,79 @@
+.weather-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(87, 172, 241);
+    width: 800px;
+    height: 480px;
+    padding: 2rem;
+}
+
+.weather-card {
+    display: flex;
+    background-color: azure;
+    width: 100%;
+    height: 100%;    
+    border: solid 2px rgb(216, 218, 219);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.weather-info-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+    width: 300px;
+    height: 100%;    
+    border: solid 2px rgb(216, 218, 219);
+    border-radius: 10px;
+
+    align-self: center;
+}
+.weather-icon-container {    
+    width: 200px;
+    height: 200px;    
+}
+
+.weather-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.location-text {    
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 2rem; 
+    margin: 1rem;   
+}
+
+.temp-text {
+    flex: 1;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 4rem;        
+}
+
+
+.horizontal-divider {    
+    height: 2px;
+    width: 80%;
+    background-color: bisque;
+    
+    justify-content: center;
+    align-content: center;
+}
+
+.weather-now-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;      
+    width: 300px;
+    height: 100%;
+    margin-right: 0.5rem;    
+    border: solid 2px rgb(216, 218, 219);
+    border-radius: 10px;
+
+    align-self: center;
+}
